@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+body {
+     line-height: 1;
+}
+ol, ul {
+     list-style: none;
+}
+blockquote, q {
+     quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+     content: '';
+     content: none;
+}
+table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+
+body {
+     font-family:"arial";
+}    
+div {     
+     margin-left:.625em;
+     padding:.317em;
+    /* border:dotted 1px;*/
+}
+
+#detailHeader {
+     margin-left:0px;
+     padding:0px;
+}
+
+#purchaseInfo {
+     display: table;
+     border-collapse: collapse;
+     margin-top:.625em;
+     
+     
+}
+
+#detailThumbnail {
+     display: table-cell;
+     width: 90px;
+     height:90px;
+     /*background-color: rgb(240,255,240);*/
+     background: #5d9ab2 url('http://a12.akadl.mtvnservices.com/10740/cdnorigin/mobilestor/nick.com/cst/diner_dashsmall_feature.png') no-repeat center center;
+    
+}
+
+#metadata {
+     display: table-cell;
+     width: 150px;
+     font-size:.8em;
+     padding-left: 10px;
+     /*background-color: rgb(255,240,240);*/
+}
+
+#detailTitle {
+     font-weight:bold;
+}
+
+
+ #action {
+     position:relative;
+     border:none;
+     top:.2em;
+     margin:0px;
+     padding:0px;
+}
+
+ .detailButton {
+       background-color: #a5b8da;
+       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5b8da), color-stop(100%, #7089b3));
+       background-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -moz-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -ms-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -o-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: linear-gradient(top, #a5b8da, #7089b3);
+       border-top: 1px solid #758fba;
+       border-right: 1px solid #6c84ab;
+       border-bottom: 1px solid #5c6f91;
+       border-left: 1px solid #6c84ab;
+       -webkit-border-radius: .8em;
+       -moz-border-radius: .8em;
+       -ms-border-radius: .8em;
+       -o-border-radius: .8em;
+       border-radius: .8em;
+       -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -ms-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -o-box-shadow: inset 0 1px 0 0 #aec3e5;
+       box-shadow: inset 0 1px 0 0 #aec3e5;
+       color: #fff;
+       font: bold .85em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+       line-height: 1;
+       padding: .7em 0;
+       text-align: center;
+       text-shadow: 0 -1px 1px #64799e;
+       width:10em;
+}
+
+#detailDescription {
+     width:95%;
+     margin-left:.4em;
+}
+
+a {
+     color: #0254EB
+}
+     a:visited {
+     color: #0254EB
+}
+
+a.morelink {
+     text-decoration:none;
+     outline: none;
+}
+.morecontent span {
+     display: none;
+}
+
+.screenShotItem {
+     padding:0;
+     margin-left: auto;
+     margin-right: auto;
+     width: 320px;
+     overflow:hidden;
+}
+
+.screenShotImage{
+     padding: 0;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+     height:150px;
+     width:300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#indicator {
+     display:inline-block;
+     /*margin-left:auto; */
+     padding:0; 
+     padding-top:5px;
+     list-style:none;
+     /*background-color:rgb(200,250,200);*/
+}
+#indicator li{
+     float:left; 
+     width:20px; 
+     margin:0; 
+     padding:0; 
+     height:35px;
+     font-size:1px;
+}
+
+/* lightbox styles */
+.slidewrap {
+     position: absolute;
+     width: 120%;
+     height:480px;
+     overflow: hidden;
+     top: 0px;
+     bottom: 0px;
+     margin-left:0px;
+     left:0px;
+     right:0px;
+     background: rgb(90,90,90);
+     display: none;
+}
+
+.slide {
+     width:80%;
+     padding:0px;
+}
+
+.slide div {
+     display: inline-block;
+     background-size:100%;
+     background-repeat:no-repeat;
+      background-position:center center;
+}
+@media screen and (min-width: 1025px) /*desktop*/ {
+     #screenShotSlider {
+          width:480px;
+          box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+          border-radius: 20px;
+     }
+}
+@media screen and (max-width: 1024px) /*iPad Landscpae*/ {
+     #action {
+          top:.4em;
+     }
+     
+     #screenShotSlider {
+          width:480px;
+          box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+          border-radius: 20px;
+     }
+     
+     .slidewrap {
+          height:770px;
+     }
+     
+     .slide div {
+          margin-left:280px;
+     }
+}
+
+@media screen and (max-width: 770px) /*iPad Portrait */ {
+     #action {
+          top:.4em;
+     }
+     
+     #screenShotSlider {
+          width:480px;
+          box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+          border-radius: 20px;
+     }
+     .slidewrap {
+          height:1024px;
+     }
+     .slide div {
+          margin-left:120px;
+     }
+}
+@media screen and (max-width: 480px) /*iPhone Landscape */ {
+
+     #action {
+          top:.4em;
+     }
+     #detailDescription {
+          font-size:.1.1em;
+     }
+     
+     .screenShotImage {
+          width:300px;
+          padding-left:7px;
+     }
+     .screenShotItem {
+          width: 320px;  
+     }
+     
+     #screenShotSlider {
+          width:90%;
+           box-shadow: none;
+           border-radius: 0px;
+     }
+
+     .slide {
+          margin-left:-10px;
+     }
+
+     .slide div {
+     }
+}
+
+@media screen and (max-width: 320px) /*iPhone Portrait */ {
+     #action {
+          top:.4em;
+     }
+     #detailDescription {
+          font-size:1em;
+     }
+     #screenShotSlider {
+          width:90%;
+          box-shadow: none;
+          border-radius: 0px;
+     }
+     
+     .screenShotImage {
+          width:300px;
+          padding-left:7px;
+     }
+     .screenShotItem {
+          width: 320px;
+          
+     }
+     
+     .slide {
+          margin-left:-10px;
+     }
+      .slide div {
+          top:0px;
+          margin-left:0px;
+     }
+
+}

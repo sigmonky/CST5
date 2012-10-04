@@ -1,0 +1,644 @@
+/* BEGIN:utility selectors */
+#verticalStub {
+	height:18.75em;
+}
+
+.clearfix:after {
+     display: block;
+     height: 0;
+     font-size:0;
+     clear: both;
+     content: ".";
+     visibility: hidden;
+}
+/* END:utility selectors */
+
+/* BEGIN:HTML Selectors */
+body, ul, li, article, h1, h2,p {
+	padding: 0;
+	margin: 0;
+	color: #000000;
+	font:  "Helvetica";
+	
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+	background-color: #FFFFFF;
+}
+
+div {
+	display: block;
+	/*margin-left:auto;*/
+}
+
+h2 {
+	font-family:"Helvetica";
+	font-weight:"bold";
+	margin-bottom:0.5em;
+}
+/* END:HTML Selectors */
+
+/* BEGIN:Landing Page Category Item Selectors */
+
+#appsGrid {
+     /*border:1px dotted;*/
+     padding-bottom:0.5em;
+}
+.sectionHeader {
+    margin-left:.5em;
+}
+
+.categoryItem {
+	width:5em;
+	/*height:150px;*/
+	float: left;
+	overflow:hidden;
+}
+
+.categoryItemName {
+	margin:0em;
+	padding-top:0.25em;
+	margin-left:2.2em;
+	color: #000000;
+	text-shadow: 0 0.125em #ffffff;
+	font: bold 0.65em "Helvetica";
+}
+
+.categoryItemThumb
+{
+	padding: 0;
+	/*-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;*/
+	width:3.3125em;
+	height:3.5em;
+	margin-left:1.25em;
+
+}
+/* END:Landing Page Category Item Selectors */
+
+/* BEGIN:Landing Page Featured Item Selectors */
+.featuredItem {
+     padding:0;
+     margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+	overflow:hidden;
+}
+
+.featuredItemThumb{
+	padding: 0;
+	/*-moz-border-radius: 0.625em;
+	-webkit-border-radius: 0.625em;
+	border-radius: 0.625em;*/
+	height:9.375em;
+	width:18.75em;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+/* END:Landing Page Featured Item Selectors */
+
+/* BEGIN: carousel selectors */
+.swipe {
+	padding-bottom:0.625em;
+	display:hidden;
+}
+
+#indicator {
+    display:inline-block;
+     padding:0; 
+     padding-top:0.3125em;
+     list-style:none;
+}
+#indicator li{
+     float:left; 
+     width:1.25em; 
+     margin:0em; 
+     padding:0em; 
+     height:2.1875em;
+      font-size:0,0625em;
+}
+
+#slider{
+     margin-left:auto; 
+     margin-right:auto;
+}
+/* END: carousel selectors */
+
+/* BEGIN:detail page selectors */
+#container {
+     /*border:2px dotted;*/
+     margin-left:.625em;
+     font-family:"helvetica";
+}
+#detailHeader {
+     margin-left:0em;
+     padding:0em;
+     padding-top:0.625em;
+}
+
+#purchaseInfo {
+     display: table;
+     border-collapse: collapse;
+     margin-top:0.625em;
+     margin-bottom:0.625em;
+     
+}
+
+#detailThumbnail {
+     display: table-cell;
+     width: 5.625em;
+     height:5.625em;
+}
+
+#metadata {
+     display: table-cell;
+     width: 9.375em;
+     font-size:.8em;
+     padding-left: 0.625em;
+     /*background-color: rgb(255,240,240);*/
+}
+
+#detailTitle {
+     font-weight:bold;
+}
+
+#price {
+     padding-top:.5em;
+}
+
+ #action {
+     position:relative;
+     top:2.1em;
+     margin:0px;
+     padding:0px;
+}
+
+
+ .detailButton {
+       background-color: #a5b8da;
+       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5b8da), color-stop(100%, #7089b3));
+       background-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -moz-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -ms-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -o-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: linear-gradient(top, #a5b8da, #7089b3);
+       border-top: 1px solid #758fba;
+       border-right: 1px solid #6c84ab;
+       border-bottom: 1px solid #5c6f91;
+       border-left: 1px solid #6c84ab;
+       -webkit-border-radius: .8em;
+       -moz-border-radius: .8em;
+       -ms-border-radius: .8em;
+       -o-border-radius: .8em;
+       border-radius: .8em;
+       -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -ms-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -o-box-shadow: inset 0 1px 0 0 #aec3e5;
+       box-shadow: inset 0 1px 0 0 #aec3e5;
+       color: #fff;
+       font: bold .85em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+       line-height: 1;
+       padding: .7em 0;
+       text-align: center;
+       text-shadow: 0 -1px 1px #64799e;
+       width:10em;
+}
+
+#detailDescription {
+   padding-bottom:0.625em;  
+}
+
+a {
+     color: #0254EB
+}
+     a:visited {
+     color: #0254EB
+}
+
+a.morelink {
+     text-decoration:none;
+     outline: none;
+}
+.morecontent span {
+     display: none;
+}
+/* END:detail page selectors */
+
+/* BEGIN: detail page screen shot carousel selectors */
+.screenShotItem {
+     padding:0em;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20em;
+     height:10em;
+     overflow:hidden;
+}
+
+.screenShotImage{
+     padding: 0em;
+    /*-moz-border-radius: 0.625em;
+     -webkit-border-radius: 0.625em;
+     border-radius: 0.625em;*/
+     height:9.3753m;
+     width:18.5em;
+     margin-left: auto;
+     margin-right: auto;
+}
+/* END: detail page screen shot carousel selectors */
+
+/* BEGIN: Email Selectors */
+li {list-style-type: none;
+      font-size: 1em;
+      margin-bottom:.5em;
+      margin-left:1em;
+ }
+ .mail {
+      margin-left:.5em;
+      width:18em;
+     display:none;
+ }
+ .mail h2 {
+    margin:.75em;
+    font-size:1.2em;
+ }
+ input {
+     font-size: 1em;
+ }
+ input:focus, textarea:focus{
+     background-color: lightyellow;
+ }
+ .submit {
+      font-size: 1em;
+      margin-left: 6.25em;
+ }
+ .rq {
+      color: #FF0000;
+      font-size: .75em;
+ }
+ 
+ .dataentry {
+    width:15em;
+     color:rgb(165,165,165);
+ }
+ #entrystatus {
+     font-family:"arial";
+     margin-bottom:3em;
+     margin-left:1em;
+ }
+ .success {
+     color:rgb(0,125,0);
+     font-weight:bold;
+ }
+ .failure {
+     color:rgb(125,0,0);
+     font-weight:bold;
+ }
+ 
+ .button {
+       background-color: #a5b8da;
+       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5b8da), color-stop(100%, #7089b3));
+       background-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -moz-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -ms-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: -o-linear-gradient(top, #a5b8da, #7089b3);
+       background-image: linear-gradient(top, #a5b8da, #7089b3);
+       border-top: 1px solid #758fba;
+       border-right: 1px solid #6c84ab;
+       border-bottom: 1px solid #5c6f91;
+       border-left: 1px solid #6c84ab;
+       -webkit-border-radius: .8em;
+       -moz-border-radius: .8em;
+       -ms-border-radius: .8em;
+       -o-border-radius: .8em;
+       border-radius: .8em;
+       -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -ms-box-shadow: inset 0 1px 0 0 #aec3e5;
+       -o-box-shadow: inset 0 1px 0 0 #aec3e5;
+       box-shadow: inset 0 1px 0 0 #aec3e5;
+       color: #fff;
+       font: bold .85em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+       line-height: 1;
+       padding: .7em 0;
+       text-align: center;
+       text-shadow: 0 -1px 1px #64799e;
+       width:10em;
+}
+                 
+/* END: Email Selectors */
+
+/* BEGIN: SCREENSHOT BLOWUP */
+.slidewrap {
+	position: absolute;
+	width: 100%;
+	height:1024px;
+	overflow: hidden;
+	top: 0px;
+	/*bottom: 0px;*/
+	left:0px;
+	right:0px;
+	background: #444;
+	display: none;
+}
+
+.slide {
+	width:70%;
+	height:70%;
+	
+	position:absolute;
+	text-align: center;
+	top:0em;
+	left:0em;
+/*	-webkit-transition: -webkit-transform 1s ease-in-out;*/
+}
+
+.slide div {
+	display: inline-block;
+	height:70%;
+	width:70%;
+	background-size:100%;
+	background-repeat:no-repeat;
+	
+}
+/*END SCREENSHOT BLOWUP */
+
+/* BEGIN:MEDIA QUERIES */
+
+
+@media only screen and (min-width: 1025px) /* desktop */ {
+      .categoryItem {
+         width:12em;
+          height:12em;
+          float: left;
+          overflow:hidden;
+          font-size:1.2em;
+     }
+     
+     .categoryItemThumb
+     {
+          padding: 0;
+          /*-moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius:10px;*/
+          width:10em;
+          height:10em;
+          margin-left:1.5em;
+     
+     }
+     
+     #slider {
+          width:38.7em;
+          box-shadow: rgba(0,0,0,0.2) 0em 0.125em 0.1875em, inset rgba(0,0,0,0.2) 0px -0.0625em 0.125em;
+          border-radius: 1em;
+          overflow:hidden;
+     }
+     
+     #screenShotSlider {
+          width:30em;
+          /*box-shadow: rgba(0,0,0,0.2) 0em 0.125em 0.1875em, inset rgba(0,0,0,0.2) 0px -0.0625em 0.125em;
+          border-radius: 20px;*/
+     }
+     
+     #metadata {
+          width:50em;
+     }
+
+}
+@media screen and (max-width: 1024px) /* iPad Landscape */ {
+
+ .categoryItem {
+         width:13.2em;
+          height:11em;
+          float: left;
+          overflow:hidden;
+          font-size:1.2em;
+     }
+     
+     .categoryItemThumb
+     {
+          padding: 0;
+          /*-moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius:10px;*/
+          width:10em;
+          height:10em;
+          margin-left:1.5em;
+     
+     }
+     #slider {
+          width:30em;
+         box-shadow: rgba(0,0,0,0.2) 0em 0.125em 0.1875em, inset rgba(0,0,0,0.2) 0px -0.0625em 0,125em;
+          border-radius: 1.25em;
+     }
+     
+     #action {
+          top:2em;
+     }
+     
+     #screenShotSlider {
+          width:50em;
+          /*box-shadow: rgba(0,0,0,0.2) 0em 0.125em 0.1875em, inset rgba(0,0,0,0.2) 0px -0.0625em 0.125em;
+          border-radius: 1.25em;*/
+           margin-left:auto;
+          margin-right:auto;
+     }
+     
+      #metadata {
+          width:50em;
+     }
+ 
+     
+            
+}
+
+
+
+@media screen and (max-width: 770px) /*iPad Portrait */ {
+ .categoryItem {
+         width:9.85em;
+          height:10em;
+          float: left;
+          overflow:hidden;
+          font-size:1.2em;
+          
+     }
+     
+     .categoryItemThumb
+     {
+          padding: 0;
+          /*-moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius:10px;*/
+          width:8em;
+          height:8em;
+          margin-left:1.5em;
+     
+     }
+     
+     #slider {
+          width:20em;
+           border:none;
+           box-shadow:none;
+          border-radius:0em;
+     }
+     
+       #action {
+          top:2em;
+     }
+     
+     #metadata {
+          width:33.75em;
+     }
+     #screenShotSlider {
+          width:40em;
+          /*box-shadow: rgba(0,0,0,0.2) 0em 0.125em 0.1875em, inset rgba(0,0,0,0.2) 0px -0.0625em 0.125em;
+          border-radius: 1.25em;*/
+          margin-left:auto;
+          margin-right:auto;
+     }
+  
+     
+    
+}
+
+@media screen and (max-width: 480px) /*iPhone Landscape */ {
+ .categoryItem {
+         width:7em;
+          height:7.8em;
+          float: left;
+          overflow:hidden;
+          font-size:1em;
+     }
+     
+      .categoryItemName {
+          margin-left:1em;
+     }
+     
+     .categoryItemThumb
+     {
+          padding: 0;
+         /* -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius:10px;*/
+          width:6em;
+          height:6em;
+          margin-left:.7em;
+     
+     }
+     
+     
+     .featuredItemThumb {
+          width:18.75em;
+          padding-left:7px;
+     }
+     .featuredItem {
+          width: 20em;
+     }
+     
+     #slider {
+          width:100%;
+     }
+     
+     #action {
+           top:1em;
+     }
+     
+     #detailDescription {
+          font-size:.1.1em;
+          width:93%;
+     }
+     
+     .screenShotImage {
+          width:18.75em;
+          padding-left:7px;
+     }
+     .screenShotItem {
+          width: 20em;  
+     }
+     
+     #screenShotSlider {
+          width:90%;
+           box-shadow: none;
+           border-radius: 0em;
+     }
+     
+     #metadata {
+          width:25em;
+     }
+
+  
+    
+
+}
+@media screen and (max-width: 320px) /*iPhone Portrait */ {
+ .categoryItem {
+          width:4.827em;
+          height:5.7em;
+          float: left;
+          overflow:hidden;
+          font-size:1em;
+     }
+     
+     .categoryItemName {
+          margin-left:1em;
+     }
+     
+     .categoryItemThumb
+     {
+          padding: 0;
+         /* -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius:10px;*/
+          width:3.9em;
+          height:3.9em;
+          margin-left:.7em;
+     
+     }
+      .featuredItemThumb {
+          width:18.75em;
+          padding-left:7px;
+     }
+     
+     .featuredlItem {
+          width: 20em;
+     }
+     
+     #metadata {
+          width:18em;
+     }
+     
+    #action {
+          top:1em;
+     }
+     
+    
+     
+     #detailDescription {
+          //font-size:1em;
+     }
+     #screenShotSlider {
+          width:90%;
+          box-shadow: none;
+          border-radius: 0em;
+     }
+     
+     .screenShotImage {
+          width:18.75em;
+          padding-left:7px;
+     }
+     .screenShotItem {
+         width:20em;
+          
+     }
+     
+     
+     
+
+
+}
+/* END:MEDIA QUERIES */
+

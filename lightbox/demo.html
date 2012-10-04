@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" >
+	<title>Touch Interface Demo</title>
+	<link rel="stylesheet" href="reset.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="slides.css" type="text/css" media="screen" harset="utf-8">
+</head>
+<body>
+	<div class="main">
+		<div class="welcome">
+			<h1>Welcome to an amazing carousel!</h1>
+			<p>This is an example of a nice touch interface</p>
+		</div>
+		
+		<div class="carousel">
+			<ul>
+				<li>
+					<a href="#" id="0">
+						<img data-full-height="427" data-full-width="640" src="http://farm8.staticflickr.com/7142/6664939239_7a6c846ec9_q.jpg" height="75" width="75">
+					</a>
+				</li>
+				<li>
+					<a href="#" id="1">
+						<img data-full-height="424" data-full-width="640" src="http://farm8.staticflickr.com/7001/6664957519_582f716e38_q.jpg" height="75" width="75">
+					</a>
+				</li>
+				<li>
+					<a href="#" id="2">
+						<img data-full-height="640" data-full-width="427" src="http://farm8.staticflickr.com/7019/6664955215_d49f2a0b18_q.jpg" height="75" width="75">
+					</a>
+				</li>
+				<li>
+					<a href="#"id="3">
+						<img data-full-height="426" data-full-width="640" src="http://farm8.staticflickr.com/7017/6664952047_6955870ecb_q.jpg" height="75" width="75">
+					</a>
+				</li>
+				<li>
+					<a href="#" id="4">
+						<img data-full-height="428" data-full-width="640" src="http://farm8.staticflickr.com/7149/6664948305_fb5a6276e5_q.jpg" height="75" width="75">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<!--<script src="../lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="slides.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		
+		var lightbox = new saw.Lightbox('.carousel');
+
+		$(document).on('click', 'a', function(e){
+			e.preventDefault();
+			lightbox.show($(this).attr("id"));
+		});
+
+	});
+</script>
+</html>
